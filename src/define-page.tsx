@@ -1,9 +1,9 @@
 import { cache, Suspense } from "react";
 
 export const definePage = ({
-  metadata,
   loader,
   page: PageComponent,
+  metadata,
 }: {
   loader: () => Promise<any>;
   page: React.ComponentType;

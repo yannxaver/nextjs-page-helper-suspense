@@ -6,13 +6,13 @@ const { Page, generateMetadata } = definePage({
 
     return "foo";
   },
+  page: () => {
+    return <div>Hello world</div>;
+  },
   metadata: () => {
     return {
       title: "Page title",
     };
-  },
-  page: () => {
-    return <div>Hello world</div>;
   },
 });
 
